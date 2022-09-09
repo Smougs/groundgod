@@ -1,6 +1,8 @@
 //Variables asociadas a los dos LEDs que se van a controlar
-int led_1 = 22;
-int led_2 = 23;
+int led_1 = 8;
+int led_2 = 9;
+int led_3 = 10;
+
 
 char valor;  //Variable para indicar que llega una orden
 
@@ -8,6 +10,7 @@ void setup() {
 
   pinMode(led_1, OUTPUT);
   pinMode(led_2, OUTPUT);
+  pinMode(led_3, OUTPUT);
   Serial.begin(9600);
 }
 
